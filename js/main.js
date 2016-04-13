@@ -22,5 +22,7 @@ console.log(data)
 }
 document.getElementById("button").addEventListener("click", bookSearch, false)
 
-$('#results').addClass('animated fadeInUp')
+$("button").click(function(){
+$('.results').css('display','block');
+});// hides results until click event happens
 $('.title').addClass('animated fadeInDown')
